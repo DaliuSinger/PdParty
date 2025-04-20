@@ -88,7 +88,7 @@ Checkout & Build
 
 Clone this repository and checkout it's submodules using git:
 
-    git clone https://github.com/danomatika/PdParty.git
+    git clone https://github.com/DaliuSinger/PdParty.git
     cd PdParty
     git submodule update --init --recursive
 
