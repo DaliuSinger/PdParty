@@ -27,6 +27,9 @@ void rj_centroid_tilde_setup(void);
 void rj_senergy_tilde_setup(void);
 void rj_zcr_tilde_setup(void);
 
+// cyclone
+void allpass_tilde_setup(void);
+
 @implementation Externals
 
 + (void)setup {
@@ -45,6 +48,9 @@ void rj_zcr_tilde_setup(void);
 	rj_centroid_tilde_setup();
 	rj_senergy_tilde_setup();
 	rj_zcr_tilde_setup();
+
+     	// cyclone
+    	allpass_tilde_setup();
 }
 
 @end
