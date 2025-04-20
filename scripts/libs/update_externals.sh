@@ -30,3 +30,10 @@ git clone https://github.com/pd-externals/midifile.git --depth 1
 mkdir -p $DEST_DIR/mrpeach/midifile
 cp -Rv midifile/*.c $DEST_DIR/mrpeach/midifile/
 rm -rf midifile
+
+# cyclone
+git clone https://github.com/porres/pd-cyclone
+mkdir -p $DEST_DIR/cyclone
+cp -v pd-cyclone/cyclone_objects/binaries/audio/allpass.c $DEST_DIR/cyclone
+cp -v pd-cyclone/cyclone_objects/binaries/audio/comb.c $DEST_DIR/cyclone
+rm -rf pd-cyclone
